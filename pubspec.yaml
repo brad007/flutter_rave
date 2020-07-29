@@ -8,18 +8,18 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  cupertino_icons: ^0.1.2
-  flutter_svg: ^0.13.1
-  dio: ^2.1.0
-  dio_flutter_transformer: ^2.0.10
-  equatable: ^0.2.3
-  flushbar: ^1.3.0
-  intl: ^0.16.1
-  crypto: ^2.0.6
-  tripledes: ^2.1.0
-  flutter_webview_plugin: ^0.3.5
-  url_launcher: ^5.0.2
-  webview_flutter: ^0.3.9
+  cupertino_icons:
+  flutter_svg:
+  dio:
+  dio_flutter_transformer:
+  equatable:
+  flushbar:
+  intl:
+  crypto:
+  tripledes:
+  flutter_webview_plugin:
+  url_launcher:
+  webview_flutter:
   flutter:
     sdk: flutter
 
