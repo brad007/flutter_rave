@@ -108,8 +108,8 @@ class RaveApiService {
     final payload = {
       "PBFPubKey": ravePublicKey,
       "cardno": card.cardNumber,
-      "currency": "NGN",
-      "country": "NG",
+      "currency": "ZAR",
+      "country": "ZA",
       "cvv": card.cvv,
       "amount": amount,
       "expiryyear": card.expirationYear,

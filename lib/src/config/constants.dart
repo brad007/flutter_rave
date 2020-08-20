@@ -1,4 +1,4 @@
 const minPasswordLength = 4;
 
-const nairaSymbol = "₦";
+const nairaSymbol = "ZAR";
 const cardTokenizationCharge = 100;
