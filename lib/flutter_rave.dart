@@ -110,6 +110,16 @@ class CreditCardInfo extends Equatable {
           cardNumber,
         ]);
 
+  @override
+  List<Object> get props => [
+    cvv,
+    expirationMonth,
+    expirationYear,
+    cardNumber,
+  ];
+
+
+
   bool get isComplete {
     return cardNumber != null &&
         cardNumber.isNotEmpty &&
