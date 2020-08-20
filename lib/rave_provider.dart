@@ -152,7 +152,7 @@ class _RaveProviderState extends State<RaveProvider> {
 
   Future<Map<String, dynamic>> processCard({
     String suggestedAuth,
-    String redirectUrl = "http://127.0.0.1:8184",
+    String redirectUrl = "https://payment-status-page.firebaseapp.com/",
     String suggestedAuthValue,
     Map<String, String> billingAddressInfo,
   }) async {
