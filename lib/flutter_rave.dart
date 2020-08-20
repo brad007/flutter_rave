@@ -102,13 +102,7 @@ class CreditCardInfo extends Equatable {
   String type;
 
   CreditCardInfo(
-      this.cardNumber, this.expirationMonth, this.expirationYear, this.cvv)
-      : super([
-          cvv,
-          expirationMonth,
-          expirationYear,
-          cardNumber,
-        ]);
+      this.cardNumber, this.expirationMonth, this.expirationYear, this.cvv);
 
   @override
   List<Object> get props => [
